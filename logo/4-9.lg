@@ -10,3 +10,7 @@ to tree :x :n
     setpc :n
     pu bk :x / 2 pd lt 30
 end
+
+cs pu setpos [ 0 -150 ] pd fd 100
+
+tree 50 4 bk 100

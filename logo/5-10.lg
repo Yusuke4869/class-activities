@@ -7,3 +7,7 @@ to koch1 :length
     lt 60
     fd :length / 3
 end
+
+cs pu setpos [ -200 0 ] pd rt 90
+
+koch1 400

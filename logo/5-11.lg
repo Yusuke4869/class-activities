@@ -7,3 +7,7 @@ to koch :length :depth
     lt 60
     ifelse :depth > 0 [ koch :length / 3 :depth - 1 ] [ fd :length]
 end
+
+cs pu setpos [ -200 0 ] pd rt 90 koch 400 3
+
+cs pu setpos [ -200 200 ] pd rt 90 repeat 6 [ koch 100 3 rt 60 ]
