@@ -1,0 +1,3 @@
+to scroll :d :color_number :times
+    cs setpc :color_number make "a 0 repeat :times [ make "a :a + 5 fd :a rt :d ]
+end

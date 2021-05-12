@@ -1,0 +1,1 @@
+cs make "a 0 repeat 100 [ setx 100 sety :a setx 0 make "a :a + 1 ]

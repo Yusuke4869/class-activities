@@ -1,0 +1,1 @@
+cs repeat 100 [ rt 10 ifelse greater? random 3 1 [ setpc 2 fd 50 ] [ setpc 4 fd 50 ] ]

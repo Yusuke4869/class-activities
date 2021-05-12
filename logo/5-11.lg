@@ -1,0 +1,9 @@
+to koch :length :depth
+    ifelse :depth > 0 [ koch :length / 3 :depth - 1 ] [ fd :length]
+    lt 60
+    ifelse :depth > 0 [ koch :length / 3 :depth - 1 ] [ fd :length]
+    rt 120
+    ifelse :depth > 0 [ koch :length / 3 :depth - 1 ] [ fd :length]
+    lt 60
+    ifelse :depth > 0 [ koch :length / 3 :depth - 1 ] [ fd :length]
+end

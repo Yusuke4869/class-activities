@@ -1,0 +1,12 @@
+to tree :x :n
+    setpc :n
+    if :n = 0 [ stop ]
+    lt 30 fd :x
+    tree :x :n - 1
+    setpc :n
+    pu bk :x pd
+    rt 60 fd :x
+    tree :x :n - 1
+    setpc :n
+    pu bk :x pd lt 30
+end

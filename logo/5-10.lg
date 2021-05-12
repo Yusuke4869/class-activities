@@ -1,0 +1,9 @@
+to koch1 :length
+    fd :length / 3
+    lt 60
+    fd :length / 3
+    rt 120
+    fd :length / 3
+    lt 60
+    fd :length / 3
+end
